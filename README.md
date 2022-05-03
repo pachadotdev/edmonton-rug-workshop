@@ -2,6 +2,7 @@
 # intendo
 
 <!-- badges: start -->
+[![R-CMD-check](https://github.com/pachadotdev/edmonton-rug-workshop/workflows/R-CMD-check/badge.svg)](https://github.com/pachadotdev/edmonton-rug-workshop/actions)
 <!-- badges: end -->
 
 The goal of intendo is to ...
