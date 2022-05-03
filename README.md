@@ -11,7 +11,7 @@ The goal of intendo is to ...
 You can install the development version of intendo like so:
 
 ``` r
-# FILL THIS IN! HOW CAN PEOPLE INSTALL YOUR DEV PACKAGE?
+remotes::install_github("pachadotdev/edmonton-rug-workshop")
 ```
 
 ## Example
@@ -20,6 +20,7 @@ This is a basic example which shows you how to solve a common problem:
 
 ``` r
 library(intendo)
-## basic example code
+con <- sql_connection()
+tbl(con, "sj_all_revenue_small") %>%
+  filter(item_type == "iap" & item_name == "gold4")
 ```
-

@@ -1,0 +1,23 @@
+---
+title: "Intendo Template"
+output: html_document
+author: 'You R. Name'
+date: '2022-05-03'
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(intendo)
+```
+
+# Title
+
+## Sub-title
+
+Some text
+
+```{r}
+# some computation
+1+1
+```
